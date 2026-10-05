@@ -1,0 +1,12 @@
+{
+    "name": "hanshs474/saymaker",
+    "description": "Generate images and video from PHP on SayMaker: Veo 3.1, Kling 3.0, Seedance 2.0, Nano Banana 2, GPT Image 2.5 and more with one API key",
+    "type": "library",
+    "keywords": ["video-generation", "image-generation", "ai", "text-to-video", "text-to-image", "veo", "kling", "seedance", "saymaker"],
+    "homepage": "https://saymaker.ai/?utm_source=packagist&utm_medium=package",
+    "license": "MIT",
+    "authors": [{"name": "SayMaker", "homepage": "https://saymaker.ai"}],
+    "support": {"issues": "https://github.com/hanshs474/saymaker-php/issues", "source": "https://github.com/hanshs474/saymaker-php"},
+    "require": {"php": ">=8.1", "ext-curl": "*", "ext-json": "*"},
+    "autoload": {"psr-4": {"SayMaker\\": "src/"}}
+}
